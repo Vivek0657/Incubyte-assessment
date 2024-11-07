@@ -1,0 +1,37 @@
+{
+  "validSignup": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "RANDOM_EMAIL",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "successMessage": "Thank you for registering with Main Website Store."
+  },
+  "mismatchedPassword": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "password": "Password123",
+    "confirmPassword": "Password456",
+    "errorMessage": "Please enter the same value again."
+  },
+  "duplicateEmail": {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "john.doe@example.com",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "errorMessage": "There is already an account with this email address. If you are sure that it is your email address, "
+  },
+  "invalidEmail": {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "email": "bob.brown@invalid",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "errorMessage": "Please enter a valid email address (Ex: johndoe@domain.com)."
+  },
+  "missingRequiredFields": {
+    "requiredFieldError": "This is a required field"
+  }
+}
